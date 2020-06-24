@@ -244,6 +244,7 @@ static float HEIGHT_HEADER = 15.f;
     EditBeanController *editVC = [[EditBeanController alloc] init];
     BaseNavigationController *nav = [[BaseNavigationController alloc] initWithRootViewController:editVC];
     editVC.myBean = _myBean;
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:nav animated:YES completion:nil];
 }
 

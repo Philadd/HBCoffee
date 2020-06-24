@@ -572,6 +572,7 @@ sectionForSectionIndexTitle:(NSString *)title
 - (void)addBean{
     AddNewBeanController *addNewVC = [[AddNewBeanController alloc] init];
     BaseNavigationController *NAV = [[BaseNavigationController alloc] initWithRootViewController:addNewVC];
+    NAV.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:NAV animated:YES completion:nil];
 }
 

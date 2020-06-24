@@ -238,6 +238,7 @@
 - (void)addCoffeeBean{
     AddBeanTableController *addBeanVC = [[AddBeanTableController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:addBeanVC];
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:nav animated:YES completion:nil];
 }
 
