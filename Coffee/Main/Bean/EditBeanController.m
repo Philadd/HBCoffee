@@ -497,7 +497,7 @@ static float HEIGHT_HEADER = 36.f;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
-    return 15.f/HScale;
+    return 0/HScale;
 }
 
 #pragma mark - Actions

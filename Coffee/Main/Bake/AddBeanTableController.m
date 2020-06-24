@@ -259,7 +259,9 @@ NSString *const CellIdentifier_curveInfo = @"CellID_curveInfo_add";
             if (indexPath.row == (_myNet.beanArray.count + self.beanArray.count)) {
                 BeanViewController_bakeAdd *bakeAdd = [[BeanViewController_bakeAdd alloc] init];
                 bakeAdd.popBlock = ^(BeanModel *bean) {
-                    [self.beanArray insertObject:bean atIndex:0];
+                    if (bean!= nil) {
+                        [self.beanArray insertObject:bean atIndex:0];
+                    }
                 };
                 bakeAdd.beanArray = self.beanArray;
                 [self.navigationController pushViewController:bakeAdd animated:YES];
