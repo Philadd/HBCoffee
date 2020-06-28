@@ -232,6 +232,9 @@ static float HEIGHT_HEADER = 36.f;
                 cell.nameLabel.text = LocalString(@"库存量");
                 cell.unitLabel.text = [DataBase shareDataBase].setting.weightUnit;
                 if (_myBean.stock) {
+                    if (_myBean.stock < 0) {
+                        _myBean.stock = 0;
+                    }
                     cell.contentTF.text = [NSString stringWithFormat:@"%.1f",[NSString diffWeightUnitStringWithWeight:_myBean.stock]];
                 }
                 cell.TFBlock = ^(NSString *text) {
@@ -518,7 +521,7 @@ static float HEIGHT_HEADER = 36.f;
         _myBean.area = @"";
     }
     
-    if (!_myBean.stock) {
+    if (!_myBean.stock || _myBean.stock <0) {
         _myBean.stock = 0;
     }
     
