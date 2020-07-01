@@ -2560,7 +2560,7 @@
 				CODE_SIGN_ENTITLEMENTS = Coffee/Coffee.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = 85B3RAHJ2R;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Coffee/Coffee-Prefix.pch";
@@ -2568,7 +2568,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Aiqubei.HBCoffee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coffee.aiqubei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Coffee/OC_Category/Charts/Coffee-Bridging-Header.h";
@@ -2589,7 +2589,7 @@
 				CODE_SIGN_ENTITLEMENTS = Coffee/Coffee.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = 85B3RAHJ2R;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Coffee/Coffee-Prefix.pch";
@@ -2597,7 +2597,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Aiqubei.HBCoffee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coffee.aiqubei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Coffee/OC_Category/Charts/Coffee-Bridging-Header.h";
