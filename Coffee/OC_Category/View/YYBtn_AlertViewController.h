@@ -11,7 +11,7 @@
 typedef void(^leftBlock)(void);
 typedef void(^rightBlock)(void);
 
-@interface YAlertViewController : UIViewController
+@interface YYBtn_AlertViewController : UIViewController
 @property (nonatomic) float WScale_alert;
 @property (nonatomic) float HScale_alert;
 

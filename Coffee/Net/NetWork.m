@@ -1452,7 +1452,7 @@ static NSString *curveUid;
     _isSecondBurstOver = NO;
     _isBakeOver = NO;
     
-    YAlertViewController *alert = [[YAlertViewController alloc] init];
+    YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
     alert.rBlock = ^{
         [self getCurveUidByApi];
     };
@@ -1475,7 +1475,7 @@ static NSString *curveUid;
 
 - (void)showTemperatureAlertAction{
     _isAlert = NO;
-    AAlertViewController *alert = [[AAlertViewController alloc] init];
+    ABtn_AlertViewController *alert = [[ABtn_AlertViewController alloc] init];
     alert.modalPresentationStyle = UIModalPresentationOverCurrentContext;
     alert.Block = ^{
         [[self getCurrentVC].rdv_tabBarController setTabBarHidden:NO animated:YES];
@@ -1768,7 +1768,7 @@ static NSString *curveUid;
     UIViewController *rootViewController = [UIApplication sharedApplication].keyWindow.rootViewController;
     
     UIViewController *currentVC = [self getCurrentVCFrom:rootViewController];
-    while (currentVC.presentedViewController && ![currentVC.presentedViewController isKindOfClass:[YAlertViewController class]]) {
+    while (currentVC.presentedViewController && ![currentVC.presentedViewController isKindOfClass:[YYBtn_AlertViewController class]]) {
         currentVC = [self getCurrentVCFrom:currentVC.presentedViewController];
     }
     return currentVC;

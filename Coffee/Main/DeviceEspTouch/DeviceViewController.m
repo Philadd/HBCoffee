@@ -16,7 +16,7 @@
 #import "MJRefresh.h"
 #import "DeviceModel.h"
 #import "FMDB.h"
-#import "YTFAlertController.h"
+#import "AA_TFAlertController.h"
 
 #import <SystemConfiguration/CaptiveNetwork.h>
 
@@ -587,7 +587,7 @@ NSString *const CellIdentifier_device = @"CellID_device";
 }
 
 - (void)showNoWifiConnect{
-    YAlertViewController *alert = [[YAlertViewController alloc] init];
+    YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
     alert.modalPresentationStyle = UIModalPresentationOverCurrentContext;
     alert.rBlock = ^{
     };
@@ -609,7 +609,7 @@ NSString *const CellIdentifier_device = @"CellID_device";
     NSDictionary *netInfo = [self fetchNetInfo];
     NSString *ssid = [netInfo objectForKey:@"SSID"];
     if (![[NetWork shareNetWork].ssid isEqualToString:@""] && ![ssid isEqualToString:[NetWork shareNetWork].ssid]) {
-        YAlertViewController *alert = [[YAlertViewController alloc] init];
+        YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
         alert.modalPresentationStyle = UIModalPresentationOverCurrentContext;
         alert.rBlock = ^{
         };
@@ -734,7 +734,7 @@ NSString *const CellIdentifier_device = @"CellID_device";
                 [self.navigationController popViewControllerAnimated:YES];
             }
         }else{
-            YAlertViewController *alert = [[YAlertViewController alloc] init];
+            YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
             alert.lBlock = ^{
                 
             };
@@ -881,7 +881,7 @@ NSString *const CellIdentifier_device = @"CellID_device";
     //如果当前有设备连接，先断开 再去配网
     if (net.connectedDevice) {
         
-        YAlertViewController *alert = [[YAlertViewController alloc] init];
+        YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
         alert.lBlock = ^{
             
         };
@@ -1017,7 +1017,7 @@ NSString *const CellIdentifier_device = @"CellID_device";
             default:
                 break;
         }
-        YTFAlertController *alert = [[YTFAlertController alloc] init];
+        AA_TFAlertController *alert = [[AA_TFAlertController alloc] init];
         alert.lBlock = ^{
         };
         alert.rBlock = ^(NSString * _Nullable text) {
@@ -1040,7 +1040,7 @@ NSString *const CellIdentifier_device = @"CellID_device";
         //成为第一响应者，需重写该方法
         [self becomeFirstResponder];
         NetWork *net = [NetWork shareNetWork];
-        YAlertViewController *alert = [[YAlertViewController alloc] init];
+        YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
         alert.lBlock = ^{
             
         };

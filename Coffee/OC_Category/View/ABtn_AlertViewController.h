@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^Block)(void);
 
-@interface AAlertViewController : UIViewController
+@interface ABtn_AlertViewController : UIViewController
 
 @property (nonatomic) float WScale_alert;
 @property (nonatomic) float HScale_alert;

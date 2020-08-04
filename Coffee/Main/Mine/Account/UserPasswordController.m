@@ -148,7 +148,7 @@ static float HEIGHT_CELL = 50.f;
 
 #pragma mark - Actions
 - (void)showConfirmAlert{
-    YAlertViewController *alert = [[YAlertViewController alloc] init];
+    YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
     alert.lBlock = ^{
         
     };

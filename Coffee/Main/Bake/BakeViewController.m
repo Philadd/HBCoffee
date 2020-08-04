@@ -214,7 +214,7 @@
         bakeCurveVC.modalPresentationStyle = UIModalPresentationFullScreen;
         [self presentViewController:bakeCurveVC animated:YES completion:nil];
     }else{
-        YAlertViewController *alert = [[YAlertViewController alloc] init];
+        YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
         alert.modalPresentationStyle = UIModalPresentationOverCurrentContext;
         alert.rBlock = ^{
             [self.rdv_tabBarController setTabBarHidden:NO animated:YES];
@@ -272,7 +272,7 @@
         return;
     }
     
-    YAlertViewController *alert = [[YAlertViewController alloc] init];
+    YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
     alert.modalPresentationStyle = UIModalPresentationOverCurrentContext;
     alert.rBlock = ^{
         [self.rdv_tabBarController setTabBarHidden:NO animated:YES];
@@ -397,7 +397,7 @@
 }
 
 - (void)showNoConnectDevice{
-    YAlertViewController *alert = [[YAlertViewController alloc] init];
+    YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
     alert.modalPresentationStyle = UIModalPresentationOverCurrentContext;
     alert.rBlock = ^{
         [self.rdv_tabBarController setTabBarHidden:NO animated:YES];

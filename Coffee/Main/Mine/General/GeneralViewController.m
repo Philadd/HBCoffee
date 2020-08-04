@@ -13,10 +13,10 @@
 #import "FastEventViewController.h"
 #import "CurveColorViewController.h"
 #import "SettingModel.h"
-#import "YPickerAlertController.h"
+#import "AA_PickerAlertController.h"
 #import <Charts/Charts-Swift.h>
-#import "LoginViewController.h"
-#import "YTFAlertController.h"
+#import "HBLoginViewController.h"
+#import "AA_TFAlertController.h"
 #import "YULanguageManager.h"
 #import "MainViewController.h"
 #import "MineViewController.h"
@@ -257,7 +257,7 @@ NSString *const CellIdentifier_GeneralLogout = @"CellID_GeneralLogout";
             [self showNoConnectDevice];
             return;
         }
-        YTFAlertController *alert = [[YTFAlertController alloc] init];
+        AA_TFAlertController *alert = [[AA_TFAlertController alloc] init];
         alert.lBlock = ^{
         };
         alert.rBlock = ^(NSString * _Nullable text) {
@@ -273,7 +273,7 @@ NSString *const CellIdentifier_GeneralLogout = @"CellID_GeneralLogout";
         }];
     }
     if (indexPath.section == 6) {
-        YAlertViewController *alert = [[YAlertViewController alloc] init];
+        YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
         alert.lBlock = ^{
             
         };
@@ -281,7 +281,7 @@ NSString *const CellIdentifier_GeneralLogout = @"CellID_GeneralLogout";
             //清除单例
             [NetWork destroyInstance];
             
-            LoginViewController *loginVC = [[LoginViewController alloc] init];
+            HBLoginViewController *loginVC = [[HBLoginViewController alloc] init];
             NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
             [userDefaults removeObjectForKey:@"passWord"];
             [userDefaults synchronize];
@@ -309,7 +309,7 @@ NSString *const CellIdentifier_GeneralLogout = @"CellID_GeneralLogout";
             for (int i = 8; i < 30; i++) {
                 [array addObject:[NSNumber numberWithInt:i]];
             }
-            YPickerAlertController *VC = [[YPickerAlertController alloc] init];
+            AA_PickerAlertController *VC = [[AA_PickerAlertController alloc] init];
             VC.pickerArr = [array mutableCopy];
             VC.index = _myData.setting.timeAxis - 8;
             VC.pickerBlock = ^(NSInteger picker) {
@@ -326,7 +326,7 @@ NSString *const CellIdentifier_GeneralLogout = @"CellID_GeneralLogout";
             for (int i = 3; i < 11; i++) {
                 [array addObject:[NSNumber numberWithInt:[NSString diffTempUnitStringWithTemp:i*50]]];
             }
-            YPickerAlertController *VC = [[YPickerAlertController alloc] init];
+            AA_PickerAlertController *VC = [[AA_PickerAlertController alloc] init];
             VC.pickerArr = [array mutableCopy];
             VC.index = _myData.setting.tempAxis/50 - 3 ;
             VC.pickerBlock = ^(NSInteger picker) {
@@ -346,7 +346,7 @@ NSString *const CellIdentifier_GeneralLogout = @"CellID_GeneralLogout";
             for (int i = 1; i <= 3; i=i+1) {
                 [array addObject:[NSNumber numberWithInt:i]];
             }
-            YPickerAlertController *VC = [[YPickerAlertController alloc] init];
+            AA_PickerAlertController *VC = [[AA_PickerAlertController alloc] init];
             //保持默认索引下标
             switch (_myData.setting.tempRateSmooth) {
                 case 10:
@@ -526,7 +526,7 @@ NSString *const CellIdentifier_GeneralLogout = @"CellID_GeneralLogout";
 }
 
 - (void)showNoConnectDevice{
-    YAlertViewController *alert = [[YAlertViewController alloc] init];
+    YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
     alert.modalPresentationStyle = UIModalPresentationOverCurrentContext;
     alert.rBlock = ^{
     };

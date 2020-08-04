@@ -6,16 +6,16 @@
 //  Copyright © 2018年 杭州轨物科技有限公司. All rights reserved.
 //
 
-#import "YTFAlertController.h"
+#import "AA_TFAlertController.h"
 
-@interface YTFAlertController ()
+@interface AA_TFAlertController ()
 
 @property (nonatomic, strong) UIView *alertView;
 @property (nonatomic, strong) UIButton *dismissBtn;
 
 @end
 
-@implementation YTFAlertController
+@implementation AA_TFAlertController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

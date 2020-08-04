@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  Coffee
+
+  Created by 安建伟 on 2020/8/4.
+  Copyright © 2020 杭州轨物科技有限公司. All rights reserved.
+*/
+CFBundleDisplayName = "HB Roaster";

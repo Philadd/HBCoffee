@@ -11,7 +11,7 @@
 #import "PhoneVerifyCell.h"
 #import "MainViewController.h"
 #import "DataWithApi.h"
-#import "RegisterController.h"
+#import "HBRegisterViewController.h"
 
 NSString *const CellIdentifier_VerifyLoginUserPhone = @"CellID_VerifyLoginuserPhone";
 NSString *const CellIdentifier_VerifyLoginUserPhoneVerify = @"CellID_VerifyLoginuserPhoneVerify";
@@ -321,7 +321,7 @@ static float HEIGHT_CELL = 50.f;
 }
 
 - (void)registeUser{
-    RegisterController *registVC = [[RegisterController alloc] init];
+    HBRegisterViewController *registVC = [[HBRegisterViewController alloc] init];
     [self.navigationController pushViewController:registVC animated:YES];
 }
 

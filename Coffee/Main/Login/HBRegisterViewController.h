@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RegisterController : UIViewController
+@interface HBRegisterViewController : UIViewController
 
 @end
 

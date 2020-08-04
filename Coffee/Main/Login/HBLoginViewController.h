@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LoginViewController : UIViewController
+@interface HBLoginViewController : UIViewController
 
 @property (nonatomic) BOOL isAutoLogin;
 @property (nonatomic, strong) NSString *numPassword;

@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "MainViewController.h"
 #import "ESP_NetUtil.h"
-#import "LoginViewController.h"
+#import "HBLoginViewController.h"
 #import <Bugly/Bugly.h>
 #import <IQKeyboardManager/IQKeyboardManager.h>
 
@@ -29,7 +29,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    LoginViewController *loginVC = [[LoginViewController alloc] init];
+    HBLoginViewController *loginVC = [[HBLoginViewController alloc] init];
     loginVC.isAutoLogin = YES;
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:loginVC];
     self.window.rootViewController = nav;

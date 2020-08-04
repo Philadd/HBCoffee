@@ -15,7 +15,7 @@
 #import "UIButton+WebCache.h"
 #import "DeviceViewController.h"
 #import "QRCodeScanController.h"
-#import "LoginViewController.h"
+#import "HBLoginViewController.h"
 
 NSString *const CellIdentifier_Mine = @"CellID_Mine";
 
@@ -190,7 +190,7 @@ static float HEIGHT_CELL = 51.f;
             [self.navigationController pushViewController:feedVC animated:YES];
         }
     }else{
-        YAlertViewController *alert = [[YAlertViewController alloc] init];
+        YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
         alert.lBlock = ^{
             
         };
@@ -198,7 +198,7 @@ static float HEIGHT_CELL = 51.f;
             //清除单例
             [NetWork destroyInstance];
             
-            LoginViewController *loginVC = [[LoginViewController alloc] init];
+            HBLoginViewController *loginVC = [[HBLoginViewController alloc] init];
             UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:loginVC];
             [UIApplication sharedApplication].keyWindow.rootViewController = nav;
         };

@@ -6,9 +6,9 @@
 //  Copyright © 2018年 杭州轨物科技有限公司. All rights reserved.
 //
 
-#import "YPickerAlertController.h"
+#import "AA_PickerAlertController.h"
 
-@interface YPickerAlertController () <UIPickerViewDelegate,UIPickerViewDataSource>
+@interface AA_PickerAlertController () <UIPickerViewDelegate,UIPickerViewDataSource>
 
 @property (nonatomic, strong) UIView *backView;
 @property (nonatomic, strong) UIPickerView *myPicker;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation YPickerAlertController{
+@implementation AA_PickerAlertController{
     NSInteger selectValue;
 }
 

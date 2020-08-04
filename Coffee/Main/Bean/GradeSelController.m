@@ -8,7 +8,7 @@
 
 #import "GradeSelController.h"
 #import "SortModel.h"
-#import "YTFAlertController.h"
+#import "AA_TFAlertController.h"
 
 NSString *const CellIdentifier_GradeSel = @"CellID_GradeSel";
 
@@ -111,7 +111,7 @@ static float HEIGHT_CELL = 50.f;
     
     //其他选项时手动输入
     if ([model.name isEqualToString:@"#其他"]) {
-        YTFAlertController *alert = [[YTFAlertController alloc] init];
+        AA_TFAlertController *alert = [[AA_TFAlertController alloc] init];
         alert.lBlock = ^{
         };
         alert.rBlock = ^(NSString * _Nullable text) {

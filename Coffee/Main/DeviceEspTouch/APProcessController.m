@@ -244,7 +244,7 @@ static bool isApSendSucc = NO;
 
 
 - (void)showNoWifiConnect{
-    YAlertViewController *alert = [[YAlertViewController alloc] init];
+    YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
     alert.modalPresentationStyle = UIModalPresentationOverCurrentContext;
     alert.rBlock = ^{
     };
@@ -701,7 +701,7 @@ static bool isApSendSucc = NO;
 }
 
 - (void)fail{
-    YAlertViewController *alert = [[YAlertViewController alloc] init];
+    YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
     alert.lBlock = ^{
         [self.spinner stopAnimating];
         [self.navigationController popViewControllerAnimated:YES];

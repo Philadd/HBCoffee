@@ -6,16 +6,16 @@
 //  Copyright © 2018年 杭州轨物科技有限公司. All rights reserved.
 //
 
-#import "LoginViewController.h"
+#import "HBLoginViewController.h"
 #import "TextFieldCell.h"
 #import "VerifyCodeLoginController.h"
-#import "RegisterController.h"
+#import "HBRegisterViewController.h"
 #import "MainViewController.h"
 #import "DataWithApi.h"
 #import "SettingModel.h"
-#import "ForgetPasswordController.h"
+#import "HBForgetPasswordController.h"
 
-@interface LoginViewController () <UITextFieldDelegate>
+@interface HBLoginViewController () <UITextFieldDelegate>
 
 @property (nonatomic, strong) UIImageView *headerImage;
 @property (nonatomic, strong) UITextField *phoneTF;
@@ -28,7 +28,7 @@
 
 @end
 
-@implementation LoginViewController
+@implementation HBLoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -225,12 +225,12 @@
 }
 
 - (void)registeUser{
-    RegisterController *registVC = [[RegisterController alloc] init];
+    HBRegisterViewController *registVC = [[HBRegisterViewController alloc] init];
     [self.navigationController pushViewController:registVC animated:YES];
 }
 
 - (void)forgetPW{
-    ForgetPasswordController *forgetVC = [[ForgetPasswordController alloc] init];
+    HBForgetPasswordController *forgetVC = [[HBForgetPasswordController alloc] init];
     forgetVC.popBlock = ^{
         [self passWordForget];
     };

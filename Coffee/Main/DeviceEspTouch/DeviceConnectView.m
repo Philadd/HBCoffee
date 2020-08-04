@@ -317,7 +317,7 @@
 }
 
 - (void)fail{
-    YAlertViewController *alert = [[YAlertViewController alloc] init];
+    YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
     alert.lBlock = ^{
         [self.condition lock];
         if (self.esptouchTask != nil)

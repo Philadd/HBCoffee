@@ -12,7 +12,7 @@ typedef void(^pickerBlock)(NSInteger picker);
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YPickerAlertController : UIViewController
+@interface AA_PickerAlertController : UIViewController
 
 @property (nonatomic) NSInteger index;
 @property (nonatomic, strong) NSMutableArray *pickerArr;

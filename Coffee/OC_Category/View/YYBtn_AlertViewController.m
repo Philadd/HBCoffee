@@ -6,15 +6,15 @@
 //  Copyright © 2018年 杭州轨物科技有限公司. All rights reserved.
 //
 
-#import "YAlertViewController.h"
+#import "YYBtn_AlertViewController.h"
 
-@interface YAlertViewController ()
+@interface YYBtn_AlertViewController ()
 
 @property (nonatomic, strong) UIView *alertView;
 
 @end
 
-@implementation YAlertViewController
+@implementation YYBtn_AlertViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -13,7 +13,7 @@ typedef void(^TFRightBlock)(NSString * _Nullable text);
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YTFAlertController : UIViewController
+@interface AA_TFAlertController : UIViewController
 
 @property (nonatomic, strong) UITextField *textField;
 @property (nonatomic, strong) UILabel *titleLabel;

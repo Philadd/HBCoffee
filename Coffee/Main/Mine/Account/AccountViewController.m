@@ -12,7 +12,7 @@
 #import "UserPasswordController.h"
 #import "UserPhoneController.h"
 #import "LogOutCell.h"
-#import "LoginViewController.h"
+#import "HBLoginViewController.h"
 #import <AliyunOSSiOS/AliyunOSSiOS.h>
 #import "UIButton+WebCache.h"
 #import "UIImage+Compression.h"
@@ -451,7 +451,7 @@ static NSString *endpoint = @"oss-cn-hangzhou.aliyuncs.com";
             [self.navigationController pushViewController:phoneVC animated:YES];
         }
     }else{
-        YAlertViewController *alert = [[YAlertViewController alloc] init];
+        YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
         alert.lBlock = ^{
             
         };
@@ -459,7 +459,7 @@ static NSString *endpoint = @"oss-cn-hangzhou.aliyuncs.com";
             //清除单例
             [NetWork destroyInstance];
             
-            LoginViewController *loginVC = [[LoginViewController alloc] init];
+            HBLoginViewController *loginVC = [[HBLoginViewController alloc] init];
             UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:loginVC];
             [UIApplication sharedApplication].keyWindow.rootViewController = nav;
         };

@@ -24,8 +24,8 @@
 #import "BaseNavigationController.h"
 #import "NetWork.h"
 #import "DataBase.h"
-#import "YAlertViewController.h"
-#import "AAlertViewController.h"
+#import "YYBtn_AlertViewController.h"
+#import "ABtn_AlertViewController.h"
 #import "AFHTTPSessionManager.h"
 #import "SettingModel.h"
 #import <SVProgressHUD/SVProgressHUD.h>

@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^passWordBlocks)(void);
-@interface ForgetPasswordController : UIViewController
+@interface HBForgetPasswordController : UIViewController
 
 @property (nonatomic, strong) passWordBlocks popBlock;
 

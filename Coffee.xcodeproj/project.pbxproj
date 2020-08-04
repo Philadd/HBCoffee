@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		258879339880B16366F53ED6 /* Pods_Coffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C3888E1688495B0D5D73D6 /* Pods_Coffee.framework */; };
 		360BA8C822CF29E3000678C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 360BA8CA22CF29E3000678C0 /* Localizable.strings */; };
-		3627B281232F16DC0053A731 /* AAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3627B280232F16DC0053A731 /* AAlertViewController.m */; };
+		361DDDF624D8FC4A00BBFA85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 361DDDF824D8FC4A00BBFA85 /* InfoPlist.strings */; };
+		3627B281232F16DC0053A731 /* ABtn_AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3627B280232F16DC0053A731 /* ABtn_AlertViewController.m */; };
 		369503A923A3C2F5005F783E /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369503A823A3C2F5005F783E /* NetworkExtension.framework */; };
 		369503AB23A3C47C005F783E /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369503AA23A3C47C005F783E /* ExternalAccessory.framework */; };
 		36AD5BEE2360809A007A13CD /* img_hb_l2_small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36AD5BED2360809A007A13CD /* img_hb_l2_small@3x.png */; };
@@ -55,17 +56,17 @@
 		BB2AF24A216CD7D700114A91 /* ios_57.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2AF239216CD7D700114A91 /* ios_57.png */; };
 		BB2B4E2421CE1FF6009E8F44 /* NSData+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B4E2321CE1FF6009E8F44 /* NSData+Common.m */; };
 		BB2DF8022150FE6400BC8DFB /* MineNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2DF8012150FE6400BC8DFB /* MineNormalCell.m */; };
-		BB345BF521533601000537DD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB345BF421533601000537DD /* LoginViewController.m */; };
+		BB345BF521533601000537DD /* HBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB345BF421533601000537DD /* HBLoginViewController.m */; };
 		BB345BF8215336C8000537DD /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB345BF7215336C8000537DD /* TextFieldCell.m */; };
 		BB345BFB21534BE6000537DD /* VerifyCodeLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB345BFA21534BE6000537DD /* VerifyCodeLoginController.m */; };
-		BB345BFE21534F99000537DD /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB345BFD21534F99000537DD /* RegisterController.m */; };
+		BB345BFE21534F99000537DD /* HBRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB345BFD21534F99000537DD /* HBRegisterViewController.m */; };
 		BB345C0121538EE7000537DD /* CompleteInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB345C0021538EE7000537DD /* CompleteInfoController.m */; };
 		BB345C362153C7D6000537DD /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BB345C342153C7D6000537DD /* NSString+Common.m */; };
 		BB3811FA20EA1C3C00F0B2B7 /* BakeCurveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3811F920EA1C3C00F0B2B7 /* BakeCurveViewController.m */; };
 		BB3AA40522D43638002E1E81 /* BeanViewController_Search.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3AA40422D43638002E1E81 /* BeanViewController_Search.m */; };
 		BB3AA40822D4934D002E1E81 /* NSBundle+YULanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3AA40722D4934D002E1E81 /* NSBundle+YULanguage.m */; };
 		BB3AA40B22D495C0002E1E81 /* YULanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3AA40A22D495C0002E1E81 /* YULanguageManager.m */; };
-		BB412405223B903F00E69EC7 /* ForgetPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB412404223B903F00E69EC7 /* ForgetPasswordController.m */; };
+		BB412405223B903F00E69EC7 /* HBForgetPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB412404223B903F00E69EC7 /* HBForgetPasswordController.m */; };
 		BB4A4C78214F474E0010A9A1 /* DetailGradeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4A4C77214F474E0010A9A1 /* DetailGradeCell.m */; };
 		BB4A4C7B214F4A0B0010A9A1 /* ArcProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4A4C7A214F4A0B0010A9A1 /* ArcProgressView.m */; };
 		BB4A4C7E214F82F90010A9A1 /* CupLightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4A4C7D214F82F90010A9A1 /* CupLightCell.m */; };
@@ -85,7 +86,7 @@
 		BB56101421522FB8008433B1 /* PhoneVerifyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB56101321522FB8008433B1 /* PhoneVerifyCell.m */; };
 		BB56101721522FC5008433B1 /* PhoneTFCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB56101621522FC5008433B1 /* PhoneTFCell.m */; };
 		BB56101A215242DA008433B1 /* AddFastEventController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB561019215242DA008433B1 /* AddFastEventController.m */; };
-		BB56101D215267C5008433B1 /* YPickerAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB56101C215267C5008433B1 /* YPickerAlertController.m */; };
+		BB56101D215267C5008433B1 /* AA_PickerAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB56101C215267C5008433B1 /* AA_PickerAlertController.m */; };
 		BB593FA9210F172D007ECB1D /* NSDate+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BB593FA8210F172D007ECB1D /* NSDate+Common.m */; };
 		BB593FAC210F324C007ECB1D /* EventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB593FAB210F324C007ECB1D /* EventModel.m */; };
 		BB5A3BF1211193180030ACA5 /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A3BF0211193180030ACA5 /* DeviceModel.m */; };
@@ -117,7 +118,7 @@
 		BB68F2F5215A115500D40336 /* DetailScoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB68F2F4215A115500D40336 /* DetailScoreCell.m */; };
 		BB69CA7320ECBB490032F126 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BB69CA7220ECBB490032F126 /* NSObject+Common.m */; };
 		BB6A555E20FCCA3D0013C3C1 /* AddBeanTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6A555D20FCCA3D0013C3C1 /* AddBeanTableViewCell.m */; };
-		BB6A68B121D1BE0D004625B9 /* YTFAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6A68B021D1BE0D004625B9 /* YTFAlertController.m */; };
+		BB6A68B121D1BE0D004625B9 /* AA_TFAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6A68B021D1BE0D004625B9 /* AA_TFAlertController.m */; };
 		BB6A784620E32A4D00EE3E2E /* DeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6A784420E32A4D00EE3E2E /* DeviceTableViewCell.m */; };
 		BB6A784B20E36E7200EE3E2E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6A784A20E36E7200EE3E2E /* BaseViewController.m */; };
 		BB6AD0E82126CC0C0010458A /* ReportLightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6AD0E72126CC0C0010458A /* ReportLightCell.m */; };
@@ -126,7 +127,7 @@
 		BB6AD2212100C058008C8763 /* LlabelRlabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6AD2202100C058008C8763 /* LlabelRlabelCell.m */; };
 		BB6AD2252100C182008C8763 /* LlabelRImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6AD2242100C182008C8763 /* LlabelRImageCell.m */; };
 		BB6CD7E0214A561D0046A792 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6CD7DF214A561C0046A792 /* BalloonMarker.swift */; };
-		BB6E0B7E2122D5B0008F20FC /* YAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E0B7D2122D5B0008F20FC /* YAlertViewController.m */; };
+		BB6E0B7E2122D5B0008F20FC /* YYBtn_AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E0B7D2122D5B0008F20FC /* YYBtn_AlertViewController.m */; };
 		BB712ABD20E47F49005FF10F /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = BB712ABC20E47F49005FF10F /* NetWork.m */; };
 		BB7300DB21743DEB00E80AFA /* ProdQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7300DA21743DEB00E80AFA /* ProdQRCodeView.m */; };
 		BB73BA1E212F9CF7001D9258 /* AddNewBeanController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB73BA1D212F9CF7001D9258 /* AddNewBeanController.m */; };
@@ -392,8 +393,11 @@
 		360BA8CF22CF6C6B000678C0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		360BA8D022CF6C6B000678C0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		360BA8D122CF6C6B000678C0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		3627B27F232F16DC0053A731 /* AAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAlertViewController.h; sourceTree = "<group>"; };
-		3627B280232F16DC0053A731 /* AAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAlertViewController.m; sourceTree = "<group>"; };
+		361DDDF724D8FC4A00BBFA85 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		361DDDF924D8FC4F00BBFA85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		361DDDFA24D8FC5100BBFA85 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3627B27F232F16DC0053A731 /* ABtn_AlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABtn_AlertViewController.h; sourceTree = "<group>"; };
+		3627B280232F16DC0053A731 /* ABtn_AlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABtn_AlertViewController.m; sourceTree = "<group>"; };
 		369503A823A3C2F5005F783E /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		369503AA23A3C47C005F783E /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		36AD5BED2360809A007A13CD /* img_hb_l2_small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_hb_l2_small@3x.png"; sourceTree = "<group>"; };
@@ -462,14 +466,14 @@
 		BB2B4E2321CE1FF6009E8F44 /* NSData+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Common.m"; sourceTree = "<group>"; };
 		BB2DF8002150FE6400BC8DFB /* MineNormalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineNormalCell.h; sourceTree = "<group>"; };
 		BB2DF8012150FE6400BC8DFB /* MineNormalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineNormalCell.m; sourceTree = "<group>"; };
-		BB345BF321533601000537DD /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		BB345BF421533601000537DD /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BB345BF321533601000537DD /* HBLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBLoginViewController.h; sourceTree = "<group>"; };
+		BB345BF421533601000537DD /* HBLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBLoginViewController.m; sourceTree = "<group>"; };
 		BB345BF6215336C8000537DD /* TextFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
 		BB345BF7215336C8000537DD /* TextFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
 		BB345BF921534BE6000537DD /* VerifyCodeLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifyCodeLoginController.h; sourceTree = "<group>"; };
 		BB345BFA21534BE6000537DD /* VerifyCodeLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerifyCodeLoginController.m; sourceTree = "<group>"; };
-		BB345BFC21534F99000537DD /* RegisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
-		BB345BFD21534F99000537DD /* RegisterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
+		BB345BFC21534F99000537DD /* HBRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBRegisterViewController.h; sourceTree = "<group>"; };
+		BB345BFD21534F99000537DD /* HBRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBRegisterViewController.m; sourceTree = "<group>"; };
 		BB345BFF21538EE7000537DD /* CompleteInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompleteInfoController.h; sourceTree = "<group>"; };
 		BB345C0021538EE7000537DD /* CompleteInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompleteInfoController.m; sourceTree = "<group>"; };
 		BB345C342153C7D6000537DD /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
@@ -482,8 +486,8 @@
 		BB3AA40722D4934D002E1E81 /* NSBundle+YULanguage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+YULanguage.m"; sourceTree = "<group>"; };
 		BB3AA40922D495C0002E1E81 /* YULanguageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YULanguageManager.h; sourceTree = "<group>"; };
 		BB3AA40A22D495C0002E1E81 /* YULanguageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YULanguageManager.m; sourceTree = "<group>"; };
-		BB412403223B903F00E69EC7 /* ForgetPasswordController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordController.h; sourceTree = "<group>"; };
-		BB412404223B903F00E69EC7 /* ForgetPasswordController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordController.m; sourceTree = "<group>"; };
+		BB412403223B903F00E69EC7 /* HBForgetPasswordController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBForgetPasswordController.h; sourceTree = "<group>"; };
+		BB412404223B903F00E69EC7 /* HBForgetPasswordController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBForgetPasswordController.m; sourceTree = "<group>"; };
 		BB41EAB6215B7E2900A58DFA /* Coffee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Coffee.entitlements; sourceTree = "<group>"; };
 		BB4A4C76214F474E0010A9A1 /* DetailGradeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailGradeCell.h; sourceTree = "<group>"; };
 		BB4A4C77214F474E0010A9A1 /* DetailGradeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailGradeCell.m; sourceTree = "<group>"; };
@@ -520,8 +524,8 @@
 		BB56101621522FC5008433B1 /* PhoneTFCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneTFCell.m; sourceTree = "<group>"; };
 		BB561018215242DA008433B1 /* AddFastEventController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddFastEventController.h; sourceTree = "<group>"; };
 		BB561019215242DA008433B1 /* AddFastEventController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddFastEventController.m; sourceTree = "<group>"; };
-		BB56101B215267C5008433B1 /* YPickerAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPickerAlertController.h; sourceTree = "<group>"; };
-		BB56101C215267C5008433B1 /* YPickerAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPickerAlertController.m; sourceTree = "<group>"; };
+		BB56101B215267C5008433B1 /* AA_PickerAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AA_PickerAlertController.h; sourceTree = "<group>"; };
+		BB56101C215267C5008433B1 /* AA_PickerAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AA_PickerAlertController.m; sourceTree = "<group>"; };
 		BB593FA7210F172D007ECB1D /* NSDate+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Common.h"; sourceTree = "<group>"; };
 		BB593FA8210F172D007ECB1D /* NSDate+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Common.m"; sourceTree = "<group>"; };
 		BB593FAA210F324C007ECB1D /* EventModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventModel.h; sourceTree = "<group>"; };
@@ -579,8 +583,8 @@
 		BB69CA7220ECBB490032F126 /* NSObject+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Common.m"; sourceTree = "<group>"; };
 		BB6A555C20FCCA3D0013C3C1 /* AddBeanTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddBeanTableViewCell.h; sourceTree = "<group>"; };
 		BB6A555D20FCCA3D0013C3C1 /* AddBeanTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddBeanTableViewCell.m; sourceTree = "<group>"; };
-		BB6A68AF21D1BE0D004625B9 /* YTFAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTFAlertController.h; sourceTree = "<group>"; };
-		BB6A68B021D1BE0D004625B9 /* YTFAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTFAlertController.m; sourceTree = "<group>"; };
+		BB6A68AF21D1BE0D004625B9 /* AA_TFAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AA_TFAlertController.h; sourceTree = "<group>"; };
+		BB6A68B021D1BE0D004625B9 /* AA_TFAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AA_TFAlertController.m; sourceTree = "<group>"; };
 		BB6A784320E32A4D00EE3E2E /* DeviceTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceTableViewCell.h; sourceTree = "<group>"; };
 		BB6A784420E32A4D00EE3E2E /* DeviceTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceTableViewCell.m; sourceTree = "<group>"; };
 		BB6A784920E36E7200EE3E2E /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -597,8 +601,8 @@
 		BB6AD2242100C182008C8763 /* LlabelRImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LlabelRImageCell.m; sourceTree = "<group>"; };
 		BB6CD7DE214A561B0046A792 /* Coffee-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Coffee-Bridging-Header.h"; sourceTree = "<group>"; };
 		BB6CD7DF214A561C0046A792 /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
-		BB6E0B7C2122D5B0008F20FC /* YAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAlertViewController.h; sourceTree = "<group>"; };
-		BB6E0B7D2122D5B0008F20FC /* YAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAlertViewController.m; sourceTree = "<group>"; };
+		BB6E0B7C2122D5B0008F20FC /* YYBtn_AlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYBtn_AlertViewController.h; sourceTree = "<group>"; };
+		BB6E0B7D2122D5B0008F20FC /* YYBtn_AlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYBtn_AlertViewController.m; sourceTree = "<group>"; };
 		BB712ABB20E47F49005FF10F /* NetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWork.h; sourceTree = "<group>"; };
 		BB712ABC20E47F49005FF10F /* NetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWork.m; sourceTree = "<group>"; };
 		BB7300D921743DEB00E80AFA /* ProdQRCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProdQRCodeView.h; sourceTree = "<group>"; };
@@ -1143,20 +1147,20 @@
 		BB63B3F42148F1D400EAC364 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				BB345BF321533601000537DD /* LoginViewController.h */,
-				BB345BF421533601000537DD /* LoginViewController.m */,
+				BB345BF321533601000537DD /* HBLoginViewController.h */,
+				BB345BF421533601000537DD /* HBLoginViewController.m */,
 				BB345BF921534BE6000537DD /* VerifyCodeLoginController.h */,
 				BB345BFA21534BE6000537DD /* VerifyCodeLoginController.m */,
-				BB345BFC21534F99000537DD /* RegisterController.h */,
-				BB345BFD21534F99000537DD /* RegisterController.m */,
+				BB345BFC21534F99000537DD /* HBRegisterViewController.h */,
+				BB345BFD21534F99000537DD /* HBRegisterViewController.m */,
 				36F957A7232916D200CE904A /* firstAgreementController.h */,
 				36F957A8232916D200CE904A /* firstAgreementController.m */,
 				36F957AA232916EB00CE904A /* secondAgreementController.h */,
 				36F957AB232916EB00CE904A /* secondAgreementController.m */,
 				BB345BFF21538EE7000537DD /* CompleteInfoController.h */,
 				BB345C0021538EE7000537DD /* CompleteInfoController.m */,
-				BB412403223B903F00E69EC7 /* ForgetPasswordController.h */,
-				BB412404223B903F00E69EC7 /* ForgetPasswordController.m */,
+				BB412403223B903F00E69EC7 /* HBForgetPasswordController.h */,
+				BB412404223B903F00E69EC7 /* HBForgetPasswordController.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -1279,12 +1283,12 @@
 		BB6E0B782122D49A008F20FC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BB6E0B7C2122D5B0008F20FC /* YAlertViewController.h */,
-				BB6E0B7D2122D5B0008F20FC /* YAlertViewController.m */,
-				BB56101B215267C5008433B1 /* YPickerAlertController.h */,
-				BB56101C215267C5008433B1 /* YPickerAlertController.m */,
-				BB6A68AF21D1BE0D004625B9 /* YTFAlertController.h */,
-				BB6A68B021D1BE0D004625B9 /* YTFAlertController.m */,
+				BB6E0B7C2122D5B0008F20FC /* YYBtn_AlertViewController.h */,
+				BB6E0B7D2122D5B0008F20FC /* YYBtn_AlertViewController.m */,
+				BB56101B215267C5008433B1 /* AA_PickerAlertController.h */,
+				BB56101C215267C5008433B1 /* AA_PickerAlertController.m */,
+				BB6A68AF21D1BE0D004625B9 /* AA_TFAlertController.h */,
+				BB6A68B021D1BE0D004625B9 /* AA_TFAlertController.m */,
 				BB4A4C79214F4A0B0010A9A1 /* ArcProgressView.h */,
 				BB4A4C7A214F4A0B0010A9A1 /* ArcProgressView.m */,
 				BB68F2F02159E5CC00D40336 /* HeightSlider.h */,
@@ -1293,8 +1297,8 @@
 				BB254E8E215CC7F4004A29D3 /* BakeSliderAlertVC.m */,
 				BB7300D921743DEB00E80AFA /* ProdQRCodeView.h */,
 				BB7300DA21743DEB00E80AFA /* ProdQRCodeView.m */,
-				3627B27F232F16DC0053A731 /* AAlertViewController.h */,
-				3627B280232F16DC0053A731 /* AAlertViewController.m */,
+				3627B27F232F16DC0053A731 /* ABtn_AlertViewController.h */,
+				3627B280232F16DC0053A731 /* ABtn_AlertViewController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1535,6 +1539,7 @@
 				BB8F7BDA20DA513B00BE5CFC /* LaunchScreen.storyboard */,
 				360BA8CA22CF29E3000678C0 /* Localizable.strings */,
 				BB8F7BDD20DA513B00BE5CFC /* Info.plist */,
+				361DDDF824D8FC4A00BBFA85 /* InfoPlist.strings */,
 				BB8F7BDE20DA513B00BE5CFC /* main.m */,
 				BB8AA49720DE42C600610316 /* Coffee-Prefix.pch */,
 				BB41EAB6215B7E2900A58DFA /* Coffee.entitlements */,
@@ -1965,6 +1970,7 @@
 				BBACBFE522DEB8D600FD3D18 /* img_fan2@3x.png in Resources */,
 				BBACBFEB22DEB8D600FD3D18 /* btn_power_off@2x.png in Resources */,
 				BBACBFC822DEB8D600FD3D18 /* img_signal_light_off@3x.png in Resources */,
+				361DDDF624D8FC4A00BBFA85 /* InfoPlist.strings in Resources */,
 				BBACBF6122DEB8D600FD3D18 /* ic_nav_back_white@2x.png in Resources */,
 				BBACBF6B22DEB8D600FD3D18 /* btn_add@3x.png in Resources */,
 				BBACC00522DEB8D600FD3D18 /* btn_power_on@3x.png in Resources */,
@@ -2218,7 +2224,7 @@
 				BB813E6E214BAABE00D68F7B /* CupModel.m in Sources */,
 				BB813E6B214BA49D00D68F7B /* CupTestMainController.m in Sources */,
 				BB68B60121282262001CABE5 /* ReportCurveCell.m in Sources */,
-				3627B281232F16DC0053A731 /* AAlertViewController.m in Sources */,
+				3627B281232F16DC0053A731 /* ABtn_AlertViewController.m in Sources */,
 				BB6A784B20E36E7200EE3E2E /* BaseViewController.m in Sources */,
 				BB4A4C7B214F4A0B0010A9A1 /* ArcProgressView.m in Sources */,
 				BB25E7AC212E63A2003568BD /* beanCell.m in Sources */,
@@ -2238,7 +2244,7 @@
 				BB8AA4C920DFB9CA00610316 /* ESP_WifiUtil.m in Sources */,
 				BB63B3FC2148FE8F00EAC364 /* BeanDetailController.m in Sources */,
 				BB94EAA220DB8CE700370A95 /* RDVTabBarItem.m in Sources */,
-				BB345BFE21534F99000537DD /* RegisterController.m in Sources */,
+				BB345BFE21534F99000537DD /* HBRegisterViewController.m in Sources */,
 				BB68F2EF2159D4F900D40336 /* ScoreTitleCell.m in Sources */,
 				BB6AD21E2100B706008C8763 /* AccountViewController.m in Sources */,
 				BB68B5FB21280A42001CABE5 /* BeanHeaderCell.m in Sources */,
@@ -2260,7 +2266,7 @@
 				BB65C25D20FE129200BB684E /* CurveViewController.m in Sources */,
 				BB6A555E20FCCA3D0013C3C1 /* AddBeanTableViewCell.m in Sources */,
 				BB8AA4CF20DFB9CA00610316 /* ESPDataCode.m in Sources */,
-				BB56101D215267C5008433B1 /* YPickerAlertController.m in Sources */,
+				BB56101D215267C5008433B1 /* AA_PickerAlertController.m in Sources */,
 				BB345BFB21534BE6000537DD /* VerifyCodeLoginController.m in Sources */,
 				BB3AA40B22D495C0002E1E81 /* YULanguageManager.m in Sources */,
 				BB28E7402146832B005B884C /* ReportEditController.m in Sources */,
@@ -2271,7 +2277,7 @@
 				BB2912022106BA65001B9448 /* UsernameViewController.m in Sources */,
 				BB29121821071B1E001B9448 /* SettingModel.m in Sources */,
 				BB7845DE216DDC83000CDD3A /* DataWithApi.m in Sources */,
-				BB6A68B121D1BE0D004625B9 /* YTFAlertController.m in Sources */,
+				BB6A68B121D1BE0D004625B9 /* AA_TFAlertController.m in Sources */,
 				BB2696B1224887830051A969 /* ApDeviceConfirmView.m in Sources */,
 				BB25E7A9212E611A003568BD /* BeanViewController.m in Sources */,
 				BB813E72214BB5CB00D68F7B /* CupNormalCell.m in Sources */,
@@ -2279,9 +2285,9 @@
 				BBA7B965212AC531004943DC /* CollectEventCell.m in Sources */,
 				BB4A4C84214FA2DB0010A9A1 /* EditCupNameCell.m in Sources */,
 				BB6CD7E0214A561D0046A792 /* BalloonMarker.swift in Sources */,
-				BB412405223B903F00E69EC7 /* ForgetPasswordController.m in Sources */,
+				BB412405223B903F00E69EC7 /* HBForgetPasswordController.m in Sources */,
 				BB2DF8022150FE6400BC8DFB /* MineNormalCell.m in Sources */,
-				BB6E0B7E2122D5B0008F20FC /* YAlertViewController.m in Sources */,
+				BB6E0B7E2122D5B0008F20FC /* YYBtn_AlertViewController.m in Sources */,
 				BB7835E821476D20000E2FCB /* EditBakeBeanCell.m in Sources */,
 				BB56100E215221D2008433B1 /* UserPWCell.m in Sources */,
 				BB26A97B21339E0C000F225C /* BeanViewController_bakeAdd.m in Sources */,
@@ -2357,7 +2363,7 @@
 				BB8AA4CC20DFB9CA00610316 /* ESPUDPSocketServer.m in Sources */,
 				BB8AA4D020DFB9CA00610316 /* ESPAES.m in Sources */,
 				BB94EAA020DB8CE700370A95 /* RDVTabBar.m in Sources */,
-				BB345BF521533601000537DD /* LoginViewController.m in Sources */,
+				BB345BF521533601000537DD /* HBLoginViewController.m in Sources */,
 				BB8AA4CA20DFB9CA00610316 /* ESPTouchGenerator.m in Sources */,
 				BBA7B95F212AA586004943DC /* CollectInfoCellCell.m in Sources */,
 				36F957AC232916EB00CE904A /* secondAgreementController.m in Sources */,
@@ -2405,6 +2411,16 @@
 				360BA8D122CF6C6B000678C0 /* zh-Hans */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		361DDDF824D8FC4A00BBFA85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361DDDF724D8FC4A00BBFA85 /* zh-Hans */,
+				361DDDF924D8FC4F00BBFA85 /* en */,
+				361DDDFA24D8FC5100BBFA85 /* en-GB */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		BB8F7BD520DA513B00BE5CFC /* Main.storyboard */ = {
@@ -2560,14 +2576,14 @@
 				CODE_SIGN_ENTITLEMENTS = Coffee/Coffee.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 85B3RAHJ2R;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Coffee/Coffee-Prefix.pch";
 				INFOPLIST_FILE = Coffee/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Aiqubei.HBCoffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2589,14 +2605,14 @@
 				CODE_SIGN_ENTITLEMENTS = Coffee/Coffee.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 85B3RAHJ2R;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Coffee/Coffee-Prefix.pch";
 				INFOPLIST_FILE = Coffee/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Aiqubei.HBCoffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

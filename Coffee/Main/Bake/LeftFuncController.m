@@ -233,7 +233,7 @@
 }
 
 - (void)showPowerConfirmAlert{
-    YAlertViewController *alert = [[YAlertViewController alloc] init];
+    YYBtn_AlertViewController *alert = [[YYBtn_AlertViewController alloc] init];
     alert.modalPresentationStyle = UIModalPresentationOverCurrentContext;
     alert.rBlock = ^{
         [self.rdv_tabBarController setTabBarHidden:NO animated:YES];

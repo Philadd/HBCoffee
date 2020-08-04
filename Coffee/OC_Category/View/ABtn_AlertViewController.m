@@ -6,15 +6,15 @@
 //  Copyright © 2019 杭州轨物科技有限公司. All rights reserved.
 //
 
-#import "AAlertViewController.h"
+#import "ABtn_AlertViewController.h"
 
-@interface AAlertViewController ()
+@interface ABtn_AlertViewController ()
 
 @property (nonatomic, strong) UIView *alertView;
 
 @end
 
-@implementation AAlertViewController
+@implementation ABtn_AlertViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
